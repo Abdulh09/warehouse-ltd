@@ -1,0 +1,41 @@
+footer .footer-top {
+    background-color: #ff7101;
+    padding: 25px 0 30px 0;
+}
+
+footer .footer-top .social-link a {
+    margin-right: 20px;
+}
+
+footer .footer-top .nav .nav-link {
+    color: #ffe1e2;
+    font-size: 1.2rem;
+    padding: 0 16px;
+}
+
+footer .footer-top .nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+footer .footer-top .contact p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #faebf7;
+}
+
+footer .footer-top .contact a {
+    font-size: 14px;
+    color: #faebf7;
+    text-decoration: none;
+}
+
+footer .footer-bottom {
+    background-color: #ececec;
+    padding: 22px 0;
+}
+
+footer .footer-bottom p {
+    font-size: 14px;
+    color: #858585;
+    margin-bottom: 0;
+}

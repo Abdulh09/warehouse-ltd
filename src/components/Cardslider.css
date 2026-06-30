@@ -1,0 +1,43 @@
+.card-wrapper .container {
+    position: relative;
+}
+
+#cardSlider {
+    position: static;
+    padding-bottom: 24px;
+}
+
+#cardSlider .swiper-button-next,
+#cardSlider .swiper-button-prev {
+    padding: 12px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    opacity: .7;
+    left: -30px;
+}
+
+#cardSlider .swiper-button-next {
+    left: auto;
+    right: -30px;
+}
+
+#cardSlider .swiper-button-next:hover,
+#cardSlider .swiper-button-prev:hover {
+    opacity: 1;
+}
+
+#cardSlider .swiper-pagination {
+    bottom: -40px;
+}
+
+#cardSlider .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 2rem;
+    background: #2e2e2e;
+}
+
+#cardSlider .swiper-pagination-bullet-active {
+    background-color: #ff7101;
+}

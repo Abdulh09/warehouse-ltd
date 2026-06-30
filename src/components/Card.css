@@ -1,0 +1,28 @@
+.card {
+    padding: 24px;
+    border: transparent;
+    border-radius: 2px;
+}
+
+.card .img {
+    padding-bottom: 20px;
+}
+
+.card .card-body .card-title {
+    margin-bottom: 0;
+    color: #2dbbc5;
+    font-size: 18px;
+}
+
+.card .card-body .card-text {
+    margin: 20px 0;
+    font-size: 14px;
+    line-break: anywhere;
+}
+.card-wrapper button.btn.btn-primary {
+    position: absolute;
+    left: 50%;
+    bottom: -24px;
+    margin-left: -64px;
+}
+
