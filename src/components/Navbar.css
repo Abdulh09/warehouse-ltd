@@ -39,6 +39,7 @@
         background-color: rgb(255 144 53);
         transition: all .3s cubic-bezier(0.14, 0.51, 0.59, 0.82);
     }
+
     .header-wrapper .navbar .nav-link {
         padding: 0;
         margin: 4px 0;
