@@ -6,17 +6,6 @@
     position: static;
 }
 
-#heroSlider .swiper-button-next,
-#heroSlider .swiper-button-prev {
-    background-color: #b4b8bb;
-    padding: 12px;
-    color: white;
-    width: 50px;
-    height: 50px;
-    opacity: .9;
-    left: -12px;
-}
-
 #heroSlider .swiper-button-next {
     left: auto;
     right: -12px;
@@ -41,4 +30,18 @@
 
 #heroSlider .swiper-pagination-bullet-active {
     background-color: #ff7101;
+}
+
+@media (min-width: 576px) {
+
+    #heroSlider .swiper-button-next,
+    #heroSlider .swiper-button-prev {
+        background-color: #b4b8bb;
+        padding: 12px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        opacity: .9;
+        left: -12px;
+    }
 }
